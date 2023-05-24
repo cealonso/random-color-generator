@@ -25,7 +25,7 @@ function changeBackground() {
     color += symbols[Math.floor(Math.random() * 16)];
   }
   document.body.style.background = color;
-  
+  document.querySelector("span").innerHTML = color;
 }
 
 
